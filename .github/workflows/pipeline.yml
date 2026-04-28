@@ -1,11 +1,11 @@
-
 name: CI Pipeline
 
  
 
 on:
   push:
-    branches: ["main"]
+    branches:
+      - "main"
 
  
 
@@ -24,4 +24,3 @@ jobs:
 
       - name: Run Tests
         run: pytest
-
