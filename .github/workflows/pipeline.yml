@@ -1,12 +1,8 @@
 name: CI/CD Pipeline
 
- 
-
 on:
   push:
     branches: ["main"]
-
- 
 
 jobs:
   # 1. Test and Security Job
